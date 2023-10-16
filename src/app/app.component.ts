@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { LAYOUT } from './shared/layout';
+import { LAYOUT } from '@layout/*';
 import { ButtonComponent } from './shared/components';
 import { CardComponent } from './shared/components';
 
