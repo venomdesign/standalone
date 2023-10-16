@@ -1,0 +1,15 @@
+:root {
+    /** FONTS **/
+
+
+    /** COLORS **/
+    --white: #fff;
+    --black: #000
+
+    --primary: #003382;
+}
+
+$white: var(--white);
+$black: var(--black);
+$gray-900: var(--gray-900);
+$primary: var(--primary);

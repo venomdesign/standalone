@@ -29,5 +29,8 @@
     "strictInjectionParameters": true,
     "strictInputAccessModifiers": true,
     "strictTemplates": true
-  }
+  },
+  "paths": {
+    "@layout/layout": ["src/app/shared/layout/index.ts"],
+  },
 }

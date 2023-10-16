@@ -1,0 +1,13 @@
+.btn { 
+    padding: 0.478em 1em; 
+    border-radius: 4px; 
+    text-transform: uppercase;
+
+    &-primary { 
+        background: var(--primary);
+
+        &:hover, &:active {  }
+        &:focus {}
+    }
+    &:disabled {}
+}

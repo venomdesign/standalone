@@ -1,0 +1,10 @@
+<button 
+[ngClass]="'btn btn-'+color" 
+[disabled]="disabled" 
+[attr.aria-disabled]="disabled" 
+[attr.aria-label]="'Click here to '+label" 
+(click)="buttonClicked()">
+  <i *ngIf="leftIcon" [ngClass]="leftIcon" class="me-2"></i> 
+  {{label}} 
+  <i *ngIf="rightIcon" [ngClass]="rightIcon" class="ms-2"></i>
+</button>

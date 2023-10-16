@@ -1,0 +1,16 @@
+// Global styling for this template
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+// Set spacing on containers for page symmetry
+
+.container,
+.container-fluid {
+  padding-left: 1rem * 1.5;
+  padding-right: 1rem * 1.5;
+}
