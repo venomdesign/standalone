@@ -1,15 +1,14 @@
+$white: #fff;
+$black: #000;
+$gray-900: var(--gray-900);
+$primary: #003382;
+
 :root {
     /** FONTS **/
 
 
     /** COLORS **/
-    --white: #fff;
-    --black: #000
-
-    --primary: #003382;
+    --white: #{$white};
+    --black: #{$black}
+    --primary: #{$primary};
 }
-
-$white: var(--white);
-$black: var(--black);
-$gray-900: var(--gray-900);
-$primary: var(--primary);
