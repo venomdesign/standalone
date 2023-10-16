@@ -1,6 +1,6 @@
 $white: #fff;
 $black: #000;
-$gray-900: var(--gray-900);
+$gray-900: #212529;
 $primary: #003382;
 
 :root {
@@ -10,5 +10,6 @@ $primary: #003382;
     /** COLORS **/
     --white: #{$white};
     --black: #{$black}
+    --gray-900: #{$gray-900};
     --primary: #{$primary};
 }
